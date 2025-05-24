@@ -62,8 +62,9 @@ flutter:
 
   
   assets:
-    - images/app_list.jpg
-    - images/cart.jpg
+    - assets/images/app_list.jpg
+    - assets/images/cart.jpg
+    - assets/images/product_detail.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

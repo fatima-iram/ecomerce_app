@@ -5,6 +5,7 @@ import 'request.dart';
 import 'package:provider/provider.dart';
 import 'cartProvider.dart';
 import 'cart_screen.dart';
+import 'productDetail.dart';
 
 class ProductScreen extends StatefulWidget {
   const ProductScreen({super.key});
@@ -102,6 +103,14 @@ class _ProductScreenState extends State<ProductScreen> {
                       },
                       child: const Text('Add'),
                     ),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Productdetail(pro: product),
+                        ),
+                      );
+                    },
                   ),
                 );
               },
